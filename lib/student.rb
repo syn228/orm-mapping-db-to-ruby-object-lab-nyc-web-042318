@@ -22,6 +22,10 @@ class Student
     # remember each row should be a new instance of the Student class
   end
 
+  def self.first_X_students_in_grade_10(int)
+    sql = <<-
+  end
+
   def self.count_all_students_in_grade_9
     sql = <<-SQL
       SELECT COUNT(name) FROM students WHERE grade = 9
