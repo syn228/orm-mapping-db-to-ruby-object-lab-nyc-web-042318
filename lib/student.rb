@@ -21,7 +21,7 @@ class Student
     # retrieve all the rows from the "Students" database
     # remember each row should be a new instance of the Student class
   end
-  def self.first_X_students_in_grade_10(int)
+  def self.all_students_in_grade_X(int)
     sql = <<-SQL
     SELECT * FROM students WHERE grade = int
       SQL
